@@ -1,0 +1,30 @@
+h1{
+    font-family: Arial, sans-serif;
+    font-size: 28pt;
+    color: rgb(105, 47, 222);
+    text-align: center;
+    background-color: rgb(219, 230, 230);
+    display: inline;
+}
+.capa1{
+  width: 80%;
+  height: 200px;
+  background-color: bisque;
+  border-radius: 100px 0px 100px 0px; 
+  /*display: none; */
+}
+.capa1 img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100% 100% 100% 100%;
+    float: left;
+    transition: 1000ms;
+}
+/*colocar animaciones*/
+.capa1 img:hover{
+    transform: rotate3d(0, 1, 0, 3.142rad);
+}
+
+.capa1 h2,p{
+    font-family: cursive;
+}
